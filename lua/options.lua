@@ -44,10 +44,10 @@ vim.o.smartindent = true
 vim.o.cursorline = true
 
 -- The number of spaces inserted for each indention
-vim.o.shiftwidth = 2
+vim.o.shiftwidth = 4
 
 -- Insert 2 spaces for a tab
-vim.o.tabstop = 2
+vim.o.tabstop = 4
 
 -- Encoding when writing to a file
 vim.o.fileencoding = 'utf-8'
