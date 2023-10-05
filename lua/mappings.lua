@@ -16,4 +16,4 @@ vim.keymap.set("n", "<S-Tab>", ":bprevious<CR>", { noremap = true, silent = true
 vim.keymap.set("n", "<leader>ng", ":Neogit<CR>", { silent = true })
 
 -- Explorer shortcut
-vim.keymap.set('n', '<leader>ee', ':Explore<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>oe', ':Explore<CR>', { noremap = true, silent = true })
