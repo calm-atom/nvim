@@ -217,6 +217,7 @@ require('lazy').setup({
     },
     build = ':TSUpdate',
   },
+  { "ellisonleao/glow.nvim", config = true, cmd = "Glow" },
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
   --       These are some example plugins that I've included in the kickstart repository.
