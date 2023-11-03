@@ -422,8 +422,8 @@ require('which-key').register({
 --  define the property 'filetypes' to the map in question.
 local servers = {
   -- clangd = {},
-  gopls = {},
-  pylsp = {},
+  -- gopls = {},
+  -- pylsp = {},
   -- pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
