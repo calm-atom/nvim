@@ -154,13 +154,30 @@ require('lazy').setup({
       end,
     },
   },
-  {
-    -- Nightfox theme
-    'EdenEast/nightfox.nvim',
-    lazy = false,    -- make sure we load this during startup as it is our main colorscheme
-    priority = 1000, -- make sure to load this before all the other start plugins
-    config = function() vim.cmd('colorscheme duskfox') end
+  -- Nightfox Theme
+  -- {
+  --   'EdenEast/nightfox.nvim',
+  --   lazy = false,  -- make sure we load this during startup as it is our main colorscheme
+  --   priority = 1000, -- make sure to load this before all the other start plugins
+  --   config = function() vim.cmd('colorscheme duskfox') end
+  -- },
+  --
+  -- Catppuccin Theme
+  -- {
+  --   'catppuccin/nvim',
+  --   name = 'catppuccin',
+  --   lazy = false,
+  --   priority = 1000
+  -- },
+  --
+  -- Kanagawa Theme
+  { 
+    'rebelot/kanagawa.nvim',
+  lazy = false,
+    priority = 1000,
+    config = function() vim.cmd('colorscheme kanagawa') end
   },
+
 
   {
     -- Set lualine as statusline
@@ -169,7 +186,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'duskfox',
+        --theme = 'duskfox',
         component_separators = '|',
         section_separators = '',
       },
@@ -422,7 +439,7 @@ require('which-key').register({
 --  define the property 'filetypes' to the map in question.
 local servers = {
   -- clangd = {},
-  -- gopls = {},
+  gopls = {},
   -- pylsp = {},
   -- pyright = {},
   -- rust_analyzer = {},
