@@ -438,13 +438,13 @@ require('which-key').register({
 --  If you want to override the default filetypes that your language server will attach to you can
 --  define the property 'filetypes' to the map in question.
 local servers = {
-  clangd = {},
+  -- clangd = {},
   gopls = {},
   -- pylsp = {},
   -- pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
-  html = { filetypes = { 'html', 'twig', 'hbs', 'tmpl' } },
+  -- html = { filetypes = { 'html', 'twig', 'hbs', 'tmpl' } },
 
   lua_ls = {
     Lua = {
