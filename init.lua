@@ -171,11 +171,17 @@ require('lazy').setup({
   -- },
   --
   -- Kanagawa Theme
+  -- {
+  --   'rebelot/kanagawa.nvim',
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function() vim.cmd('colorscheme kanagawa') end
+  -- },
   {
-    'rebelot/kanagawa.nvim',
+    'shaunsingh/moonlight.nvim',
     lazy = false,
     priority = 1000,
-    config = function() vim.cmd('colorscheme kanagawa') end
+    config = function() vim.cmd('colorscheme moonlight') end
   },
 
 
