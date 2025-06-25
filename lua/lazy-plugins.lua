@@ -10,6 +10,8 @@ require('lazy').setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   -- Detect tabstop and shiftwidth automatically
   'NMAC427/guess-indent.nvim',
+
+  require 'kickstart.plugins.autopairs',
   }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
