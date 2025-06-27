@@ -30,6 +30,7 @@ return {
         end
       end,
       formatters_by_ft = {
+        go = { 'gofmt', 'goimports', 'golines', 'staticcheck'},
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
