@@ -18,6 +18,7 @@ require('lazy').setup({
   require 'kickstart.plugins.lspconfig',
   require 'kickstart.plugins.telescope',
   require 'kickstart.plugins.treesitter',
+  require 'kickstart.plugins.blink-cmp',
 
   }, {
   ui = {
