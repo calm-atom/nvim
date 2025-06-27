@@ -21,6 +21,7 @@ require("lazy").setup({
 	require("kickstart.plugins.blink-cmp"),
 	require("kickstart.plugins.conform"),
 	require("kickstart.plugins.lint"),
+	require("kickstart.plugins.todo-comments"),
 }, {
 	ui = {
 		-- If you are using a Nerd Font: set icons to an empty table which will use the
