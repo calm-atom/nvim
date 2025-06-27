@@ -33,6 +33,8 @@ return {
 				go = { "gofmt", "goimports", "golines", "staticcheck" },
 				python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
 				lua = { "stylua" },
+				bash = { "shfmt", "shellcheck" },
+				sh = { "shfmt", "shellcheck" },
 				-- Conform can also run multiple formatters sequentially
 				-- python = { "isort", "black" },
 				--

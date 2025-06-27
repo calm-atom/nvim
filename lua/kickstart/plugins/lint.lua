@@ -9,6 +9,8 @@ return {
 				markdown = { "markdownlint" },
 				go = { "golangcilint" },
 				python = { "ruff" },
+				bash = { "shellcheck" },
+				sh = { "shellcheck" },
 			}
 
 			-- To allow other plugins to add linters to require('lint').linters_by_ft,
