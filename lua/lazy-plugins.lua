@@ -12,6 +12,7 @@ require('lazy').setup({
   'NMAC427/guess-indent.nvim',
 
   require 'kickstart.plugins.autopairs',
+  require 'kickstart.plugins.indent_line',
   }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
