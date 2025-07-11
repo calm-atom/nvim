@@ -35,6 +35,7 @@ return {
 				lua = { "stylua" },
 				bash = { "shfmt", "shellcheck" },
 				sh = { "shfmt", "shellcheck" },
+				terraform = { "terraform_fmt" },
 				-- Conform can also run multiple formatters sequentially
 				-- python = { "isort", "black" },
 				--
