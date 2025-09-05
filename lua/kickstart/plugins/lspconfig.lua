@@ -221,7 +221,15 @@ return {
 			local servers = {
 				-- clangd = {},
 				gopls = {},
-				basedpyright = {},
+				basedpyright = {
+					settings = {
+						basedpyright = {
+							analysis = {
+								typeCheckingMode = "basic",
+							},
+						},
+					},
+				},
 				ruff = {},
 				shellcheck = {},
 				shfmt = {},
