@@ -25,6 +25,7 @@ require("lazy").setup({
 	-- require("kickstart.plugins.duskfox"),
 	require("kickstart.plugins.everforest"),
 	require("kickstart.plugins.harpoon"),
+	require("kickstart.plugins.osc52"),
 }, {
 	ui = {
 		-- If you are using a Nerd Font: set icons to an empty table which will use the
