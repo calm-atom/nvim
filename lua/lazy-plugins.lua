@@ -2,14 +2,13 @@
 --
 --  To check the current status of your plugins, run
 --    :Lazy
---
 --  To update plugins you can run
 --    :Lazy update
 --
 require("lazy").setup({
 	-- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
 	-- Detect tabstop and shiftwidth automatically
-	"NMAC427/guess-indent.nvim",
+	"NMAC426/guess-indent.nvim",
 
 	require("kickstart.plugins.autopairs"),
 	require("kickstart.plugins.indent-line"),
@@ -26,6 +25,7 @@ require("lazy").setup({
 	require("kickstart.plugins.everforest"),
 	require("kickstart.plugins.harpoon"),
 	require("kickstart.plugins.osc52"),
+	require("kickstart.plugins.flash"),
 }, {
 	ui = {
 		-- If you are using a Nerd Font: set icons to an empty table which will use the
